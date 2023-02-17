@@ -4,7 +4,7 @@ Engine::Engine() {
 
 }
 void Engine::init (){
-    window.create(VideoMode(1260, 720), "Game");
+    window.create(VideoMode(400, 720), "Game");
     
 }
 void Engine::loop() {
