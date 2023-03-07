@@ -14,4 +14,34 @@ private:
     Texture mapTexture;
     Sprite mapSprite;
     void init();
+    
+    sf::String TileMap[HEIGHT_MAP] = {
+
+        "sssssssssssssssssssss",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sgggggggggggggggggggs",
+
+        "sssssssssssssssssssss"
+
+        };
+
+
 };
