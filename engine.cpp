@@ -7,6 +7,11 @@ void Engine::init (){
     window.create(VideoMode(400, 720), "Game");
     
 }
+void Engine::draw() {
+    window.clear(Color(0, 255, 0));
+    window.draw(player.getSprite());
+    window.display();
+}
 void Engine::loop() {
     while (window.isOpen())
     {
@@ -19,7 +24,7 @@ void Engine::loop() {
             }
             
         }
-        
+        draw();
     }
     
 }
